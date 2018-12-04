@@ -1,0 +1,40 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+pids
+logs
+results
+tmp
+public
+#Build
+public/css/main.css
+
+# API keys and secrets
+.env
+
+# DB ENV Files
+src/config/env/dev.json
+
+# Dependency directory
+node_modules
+bower_components
+package-lock.json
+
+# Editors
+.idea
+.vscode
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
