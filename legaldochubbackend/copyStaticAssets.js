@@ -1,4 +1,4 @@
-const shell = require('shelljs');
+const shell = require("shelljs");
 
-shell.cp('-R', 'src/config/env/*.json', 'dist/config/env/');
-shell.cp('.env', 'dist/.env');
+shell.cp("-R", "src/config/env/*.json", "dist/config/env/");
+shell.cp(".env", "dist/.env");
